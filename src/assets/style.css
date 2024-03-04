@@ -134,7 +134,7 @@ li {
 .card__img2 {
     display: block;
     width: 100%;
-    height: 19rem;
+    height: 15rem;
     /* object-fit: cover; */
 }
 
@@ -318,4 +318,204 @@ li {
     transform: scale(.98);
     box-shadow: 0 0 5px -2px rgba(0, 0, 0, .3);
     background-size: 120%;
+}
+
+
+/* Carousel */
+
+.carousel-block1 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    /* Измените значение left, чтобы регулировать положение блока влево */
+    transform: translateY(-50%);
+}
+
+.carousel-block1 h1 {
+    font-size: 3rem;
+}
+
+.carousel-block1 p {
+    font-size: 1.5rem;
+}
+
+.carousel-block1 .btn {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .carousel-block1 h1 {
+        font-size: 2.5rem;
+    }
+    .carousel-block1 p {
+        font-size: 1.2rem;
+        display: none;
+    }
+    .carousel-block1 .btn {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 568px) {
+    .carousel-block1 h1 {
+        font-size: 2rem;
+    }
+    .carousel-block1 .btn {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .carousel-block1 h1 {
+        font-size: 1.5rem;
+        margin-top: unset;
+        /* display: none; */
+    }
+    .carousel-block1 .btn {
+        font-size: 0.8rem;
+        padding: 10px;
+        margin-top: 0px;
+    }
+}
+
+
+/* CAROUSEL 2 */
+
+.carousel-block2 {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+    text-align: right;
+}
+
+.carousel-block2 h1 {
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+
+.carousel-block2 .btn {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .carousel-block2 {
+        position: relative;
+        right: auto;
+        left: 50%;
+        top: auto;
+        transform: none;
+        /* text-align: center; */
+        padding: 0 20px;
+    }
+    .carousel-block2 p {
+        display: none;
+    }
+    .carousel-block2 h1 {
+        font-size: 2.5rem;
+        margin-top: 6rem;
+    }
+    .carousel-block2 .btn {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 568px) {
+    .carousel-block2 {
+        margin-top: 5px;
+    }
+    .carousel-block2 h1 {
+        font-size: 2rem;
+        margin-top: 60px;
+    }
+    .carousel-block2 .btn {
+        font-size: 0.8rem;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 375px) {
+    .carousel-block2 h1 {
+        font-size: 1.5rem;
+        margin-top: 40px;
+        /* display: none; */
+    }
+    .carousel-block2 .btn {
+        font-size: 0.8rem;
+        padding: 10px;
+        margin-top: 0px;
+    }
+}
+
+
+/* Carousel 3 */
+
+.carousel-block3 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    /* Измените значение left, чтобы регулировать положение блока влево */
+    transform: translateY(-50%);
+}
+
+.carousel-block3 h1 {
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+
+.carousel-block3 p {
+    font-size: 1.5rem;
+}
+
+.carousel-block3 .btn {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .carousel-block3 h1 {
+        font-size: 2.5rem;
+        margin-top: 10px;
+    }
+    .carousel-block3 p {
+        font-size: 1.2rem;
+        display: none;
+    }
+    .carousel-block3 .btn {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 568px) {
+    .carousel-block3 {
+        margin-top: 5px;
+    }
+    .carousel-block3 h1 {
+        font-size: 1.5rem;
+    }
+    .carousel-block3 .btn {
+        font-size: 0.8rem;
+        margin-top: unset;
+    }
+}
+
+@media (max-width: 375px) {
+    .carousel-block3 {
+        margin-bottom: 35px;
+    }
+    .carousel-block3 h1 {
+        font-size: 1rem;
+        /* display: none; */
+    }
+    .carousel-block3 .btn {
+        font-size: 0.8rem;
+        padding: 10px;
+        margin-top: 0px;
+    }
+}
+
+.slick-arrow {
+    display: none;
 }
