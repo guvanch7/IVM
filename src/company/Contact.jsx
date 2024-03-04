@@ -1,27 +1,71 @@
-import React from "react";
-import { useState } from 'react';
+import React, { useRef, useState } from 'react';
+import emailjs from '@emailjs/browser';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
-// import prodImg from '../prodImg/prod.png'
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import {
     MDBContainer, MDBRow, MDBCol, MDBIcon, MDBBtn, MDBInput,
-    MDBCheckbox,MDBTextArea 
+    MDBCheckbox, MDBTextArea
 
 } from 'mdb-react-ui-kit';
 import Select from 'react-select'
 import { Link } from 'react-router-dom';
 
 
-
 const options = [
     { value: 'request', label: 'Request a quote/product information' },
     { value: 'customer', label: 'Customer service/technical support' },
-  ]
-  
-
-
+]
 
 function ServiceThird() {
+    const [formData, setFormData] = useState({
+        inquiry_type: '',
+        from_name: '',
+        company_name: '',
+        company_address: '',
+        company_phone: '',
+        from_email: '',
+        country: '',
+        message: ''
+    });
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+            .sendForm('service_u0uxssi', 'template_phcsdew', form.current, {
+                publicKey: 'ISCQz9QQvC_DwfI9L',
+            })
+            .then(
+                () => {
+                    console.log('SUCCESS!');
+                    // Очистка формы после отправки
+                    setFormData({
+                        inquiry_type: '',
+                        from_name: '',
+                        company_name: '',
+                        company_address: '',
+                        company_phone: '',
+                        from_email: '',
+                        country: '',
+                        message: ''
+                    });
+                },
+                (error) => {
+                    console.log('FAILED...', error.text);
+                },
+            );
+    };
+
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData(prevState => ({
+            ...prevState,
+            [name]: value
+        }));
+    };
+
     return (
         <div>
             <MDBContainer>
@@ -42,28 +86,27 @@ function ServiceThird() {
                     </MDBCol>
 
                     <MDBCol lg={6}>
-                        <form>
+                        <form ref={form} onSubmit={sendEmail}>
                             <MDBRow className='mb-4'>
                                 <MDBCol>
-                                <Select placeholder={'Inquiry type'} options={options} />
+                                    <Select placeholder={'Inquiry type'} name={'inquiry_type'} options={options} />
                                 </MDBCol>
                                 <MDBCol>
-                                    <MDBInput id='form6Example2' label='Name' />
+                                    <MDBInput id='form6Example2' name='from_name' label='Name' onChange={handleChange} value={formData.from_name} />
                                 </MDBCol>
                             </MDBRow>
 
-                            <MDBInput wrapperClass='mb-4' id='form6Example3' label='Company name' />
-                            <MDBInput wrapperClass='mb-4' id='form6Example4' label='Address' />
-                            <MDBInput wrapperClass='mb-4' type='tel' id='form6Example6' label='Phone' />
-                            <MDBInput wrapperClass='mb-4' type='email' id='form6Example5' label='Email' />
-                            <MDBInput wrapperClass='mb-4' type='text' id='form6Example6' label='Country or Region' />
+                            <MDBInput wrapperClass='mb-4' name='company_name' id='form6Example3' label='Company name' onChange={handleChange} value={formData.company_name} />
+                            <MDBInput wrapperClass='mb-4' name='company_address' id='form6Example4' label='Address' onChange={handleChange} value={formData.company_address} />
+                            <MDBInput wrapperClass='mb-4' name='company_phone' type='tel' id='form6Example6' label='Phone' onChange={handleChange} value={formData.company_phone} />
+                            <MDBInput wrapperClass='mb-4' name='from_email' type='email' id='form6Example5' label='Email' onChange={handleChange} value={formData.from_email} />
+                            <MDBInput wrapperClass='mb-4' name='country' type='text' id='form6Example6' label='Country or Region' onChange={handleChange} value={formData.country} />
 
-                            <MDBTextArea label='Additional information' id='textAreaExample' rows={4} />
+                            <MDBTextArea label='Additional information' name='message' id='textAreaExample' rows={4} onChange={handleChange} value={formData.message} />
 
 
-                        
 
-                            <MDBBtn className='mb-4 mt-3 w-25 ' type='submit' block>
+                            <MDBBtn className='mb-4 mt-3 w-25 ' type='submit'>
                                 Send
                             </MDBBtn>
                         </form>
