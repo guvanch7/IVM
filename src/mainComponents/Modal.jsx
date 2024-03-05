@@ -77,7 +77,7 @@ function Modal({ modalName }) {
 
     return (
         <>
-            <MDBBtn className="text-center mt-3" onClick={toggleOpen}>{modalName}</MDBBtn>
+            <MDBBtn className="text-center mt-3 addEff2" onClick={toggleOpen}>{modalName}</MDBBtn>
 
             <MDBModal tabIndex='-1' open={centredModal} setOpen={setCentredModal}>
                 <MDBModalDialog centered>
@@ -162,7 +162,7 @@ function Modal({ modalName }) {
                                     value={formData.message}
                                 />
 
-                                <MDBBtn className='mb-4 mt-3 w-25 ' type='submit'>
+                                <MDBBtn className='mb-4 mt-3 w-25 addEff2' type='submit'>
                                     Send
                                 </MDBBtn>
                             </form>
@@ -171,7 +171,7 @@ function Modal({ modalName }) {
                             <MDBBtn color='secondary' onClick={toggleOpen}>
                                 Close
                             </MDBBtn>
-                            <MDBBtn>Send</MDBBtn>
+                            <MDBBtn className='addEff2'>Send</MDBBtn>
                         </MDBModalFooter>
                     </MDBModalContent>
                 </MDBModalDialog>

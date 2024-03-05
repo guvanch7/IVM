@@ -67,46 +67,46 @@ function Partners() {
         };
 
         return (
-            <Slider {...settings}>
-                <div className="slick-slide">
-                <img src={partn1} alt="" />
+            <Slider className="text-center" {...settings}>
+                <div className="slick-slide text-center">
+                <img src={partn1} className="text-center w-50" alt="" />
                 </div>
 
                 <div className="slick-slide">
-                <img src={partn2} alt="" />
+                <img src={partn2} className="text-center w-30" alt="" />
                 </div>
 
                 <div>
-                <img src={partn3} alt="" />
+                <img src={partn3} alt="" className="text-center w-50" />
+                </div>
+
+                <div className="text-center">
+                <img src={partn4}  className="text-center w-25" alt="" />
                 </div>
 
                 <div>
-                <img src={partn4} alt="" />
-                </div>
-
-                <div>
-                <img src={partn5} alt="" />
+                <img src={partn5} className="text-center w-25" alt="" />
                 </div>
 
                 
-                <div>
+                {/* <div>
                 <img src={partn7} alt="" />
+                </div> */}
+
+                <div>
+                <img src={partn8} className="w-75" alt="" />
                 </div>
 
                 <div>
-                <img src={partn8} alt="" />
+                <img src={partn9} className="w-30" alt="" />
                 </div>
 
                 <div>
-                <img src={partn9} alt="" />
+                <img src={partn10} className="w-50" alt="" />
                 </div>
 
                 <div>
-                <img src={partn10} alt="" />
-                </div>
-
-                <div>
-                <img src={partn11} alt="" />
+                <img src={partn11} className="w-25" alt="" />
                 </div>
 
             </Slider>

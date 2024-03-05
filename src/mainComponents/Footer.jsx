@@ -100,7 +100,7 @@ function Footer({ }) {
                 <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
                 <p>
                   <MDBIcon color='secondary' icon='home' className='me-2' />
-                  UAE, Dubai
+                    P.O. Box 390789, Ras Al Khaimah, Dubai,UAE
                 </p>
                 <p>
                   <MDBIcon color='secondary' icon='envelope' className='me-3' />

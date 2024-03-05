@@ -1,14 +1,14 @@
 import React from "react";
 import { useState } from 'react';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
-import product1 from '../assets/bacteriologyImg/product1.1.png'
+import product1 from '../assets/bacteriologyImg/prod1.5.jpg'
 import product2 from '../assets/labImg/product2.1.png'
 import product3 from '../histopothologyImg/product2.png'
-import product4 from '../assets/bacteriologyImg/prod2.3.png'
+import product4 from '../assets/bacteriologyImg/hbl.jpg'
 import product5 from '../citologyImg/product1.png'
-import product6 from '../histopothologyImg/product7.png'
+import product6 from '../histopothologyImg/prod7.1.png'
 import product7 from '../citologyImg/product12.png'
-import product8 from '../histopothologyImg/product6.png'
+import product8 from '../histopothologyImg/cryostat.png'
 import product9 from '../histopothologyImg/product4.png'
 import product10 from '../histopothologyImg/product5.png'
 
@@ -46,7 +46,7 @@ function Products() {
                         <img className="card__img2" src={product1} alt="" />
                         <div className="card__content">
                             <h4 className="card__header text-center">I-dOne</h4>
-                            <Link to={`/bacter1`} className="card__btn2">Read More</Link>
+                            <Link to={`/bacter1`} className="card__btn2 addEff2">Read More</Link>
                         </div>
                     </div>
                 </MDBCol>
