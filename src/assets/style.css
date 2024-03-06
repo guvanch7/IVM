@@ -149,6 +149,14 @@ li {
     width: 100%;
 }
 
+.card__btn:hover {
+    color: white;
+}
+
+.card__btn2:hover {
+    color: white;
+}
+
 .card__img {
     display: block;
     width: 100%;
