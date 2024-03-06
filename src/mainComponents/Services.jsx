@@ -17,7 +17,7 @@ function Services() {
         <MDBContainer className="mt-5">
             <h1 className="text-center">Services and Solutions for Hospitals and Clinics</h1>
             <p className="text-muted fw-500">
-                IVM has a diverse range of competencies, qualified specialists and partners. Our success is based on an integrated approach to serving each client.
+                IVM has a wide range of competencies, qualified specialists and partners. Our success is based on an individual approach to serving each client.
             </p>
 
             <MDBRow>
@@ -36,7 +36,7 @@ function Services() {
                         <MDBIcon icon="hospital-alt" size="3x" className="me-3 addEff" />
                         <div>
                             <h3 className="mb-3">Comprehensive Medical Department Equipment</h3>
-                            <p>At IVM, we offer equipment and materials to virtually all customer groups within the healthcare system. With a wide range of products, IVM can fully equip healthcare facilities of almost any profile.</p>
+                            <p>IVM we offer equipment and materials to almost all client groups in the healthcare system. With a wide range of products, IVM can fully equip healthcare facilities of almost any profile.</p>
                         </div>
                     </div>
                 </MDBCol>
@@ -46,7 +46,7 @@ function Services() {
                         <MDBIcon icon="laptop-medical" size="3x" className="me-3 addEff" />
                         <div>
                             <h3 className="mb-3">Healthcare consulting</h3>
-                            <p>We comprehensively tackle challenges based on our extensive experience: chances are, we've encountered a similar issue somewhere and are ready to advise our partners on ways to address it.</p>
+                            <p>We comprehensively solve problems based on our vast experience: we may have encountered a similar problem somewhere and are ready to advise our clients on how to solve it.</p>
                         </div>
                     </div>
                 </MDBCol>
@@ -66,7 +66,7 @@ function Services() {
                         <MDBIcon icon="calendar-check" size="3x" className="me-3 addEff" />
                         <div>
                             <h3 className="mb-3">Expert design</h3>
-                            <p>We don't just sell equipment; we offer comprehensive solutions. We design healthcare facilities, equipping them with top-of-the-line equipment. We guarantee quality and compliance with established standards</p>
+                            <p>We don't just sell equipment; we offer comprehensive solutions. We design healthcare facilities, equipping them with the most modern equipment. We guarantee quality and compliance with established standards</p>
                         </div>
                     </div>
                 </MDBCol>
