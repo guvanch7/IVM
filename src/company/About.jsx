@@ -13,6 +13,8 @@ import {
     MDBModalFooter,
 } from 'mdb-react-ui-kit';
 
+import background from '../assets/background.png'
+
 import Header from "../mainComponents/Header";
 
 import Footer from "../mainComponents/Footer";
@@ -23,7 +25,7 @@ function About() {
     return (
         <>
 
-            <MDBContainer className="mt-5">
+            <MDBContainer className="background-logo mt-5" style={{backgroundImage: `url(${background})` }}>
                 <h1 className="text-center mb-4">IVM - Empowering Health through Technology</h1>
                 <p>
                     <b>IVM Medical Equipment Trading Ltd</b> (IVM)  was founded in 2015 in the UAE.

@@ -32,7 +32,7 @@ function Hist7() {
                 </MDBCol>
 
                 <MDBCol lg={12} className=" my-4 text-center">
-                    <Link to={'/contact'} className="btn btn-primary ">Send enquiry</Link>
+                    <Link to={'/contact'} className="addEff2 btn btn-primary ">Send enquiry</Link>
                 </MDBCol>
 
                 <p className="mt-4 text-center"> High throughput, fully automated staining and coverslipping process. Quality control system embedded and ready-to-use consumables, and patented AAT system keeps each slide consistent. </p>

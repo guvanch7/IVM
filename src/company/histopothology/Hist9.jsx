@@ -34,7 +34,7 @@ function Hist9() {
                 </MDBCol>
 
                 <MDBCol lg={12} className=" my-4 text-center">
-                    <Link to={'/contact'} className="btn btn-primary ">Send enquiry</Link>
+                    <Link to={'/contact'} className="addEff2 btn btn-primary ">Send enquiry</Link>
                 </MDBCol>
 
                 <p className="mt-4  fw-bold">Ideal for laser slide printers and coverslipping machines. Painted Dakewe logo pattern on the other end helps smooth transportation in the printers. The paint-coated end is resistant against common lab chemicals and suitable for all common sterilization methods.</p>

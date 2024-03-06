@@ -33,7 +33,7 @@ function Lab3() {
                 
                 <p className="text-center"><b>STORAGE SOLUTION FOR ALL LABORATORIES PRODUCING BETWEEN 50 AND 1,000 BIOLOGICAL SAMPLES A DAY</b></p>
                 <MDBCol lg={12} className=" my-4 text-center">
-                    <Link to={'/contact'} className="btn btn-primary ">Send enquiry</Link>
+                    <Link to={'/contact'} className="addEff2 btn btn-primary ">Send enquiry</Link>
                 </MDBCol>
 
                 <MDBCol className="mt-4" lg={12}>

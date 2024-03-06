@@ -37,7 +37,7 @@ function Hist5() {
                 </MDBCol>
 
                 <MDBCol lg={12} className=" my-4 text-center">
-                    <Link to={'/contact'} className="btn btn-primary ">Send enquiry</Link>
+                    <Link to={'/contact'} className="addEff2 btn btn-primary ">Send enquiry</Link>
                 </MDBCol>
 
                 <p><b>Dakewe MT1 semi-automated rotary microtome offers quality sections and effortless experience with engineered mechanism and ergonomic design, adapting to the need of every microtomists in the laboratory.</b></p>

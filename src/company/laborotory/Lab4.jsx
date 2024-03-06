@@ -34,7 +34,7 @@ function Lab4() {
                 <MDBCol className="mt-4" lg={6}>
                     <h3>ROLLER Family Instruments</h3>
                     <p>The compact Alifax solution for small laboratories. The ROLLER models perform automatic and manual sampling for low samples and uncapped tubes</p>
-                    <Link to={'/contact'} className="btn btn-primary ">Send enquiry</Link>
+                    <Link to={'/contact'} className="addEff2 btn btn-primary ">Send enquiry</Link>
                 </MDBCol>
 
                 <MDBCol className="mt-4" lg={6}>

@@ -29,7 +29,7 @@ function Hist10() {
                 </MDBCol>
 
                 <MDBCol lg={12} className=" my-4 text-center">
-                    <Link to={'/contact'} className="btn btn-primary ">Send enquiry</Link>
+                    <Link to={'/contact'} className="addEff2 btn btn-primary ">Send enquiry</Link>
                 </MDBCol>
                 <p className="mt-1  fw-bold">Low & high profile disposable microtome blade. Suitable for various types of microtomes in pathology labs or research labs. Treated with plasma technology and made of stainless steel, the blades have a hardness up to 1100 HV and are sharp and durable.</p>
 

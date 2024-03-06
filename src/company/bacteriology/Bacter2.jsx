@@ -30,7 +30,7 @@ function Bacter2() {
           
             <MDBRow className="align-items-center justify-content-evenly">
                 <MDBCol className="mt-4" lg={6}>
-                    <img src={product3} className="w-100" alt="" />
+                    <img src={product3} className="  w-100" alt="" />
                 </MDBCol>
 
                 <MDBCol className="mt-4" lg={6}>
@@ -40,7 +40,7 @@ function Bacter2() {
                 </MDBCol>
 
                 <MDBCol lg={12} className=" my-4 text-center">
-                    <Link to={'/contact'} className="btn btn-primary ">Send enquiry</Link>
+                    <Link to={'/contact'} className="addEff2 btn btn-primary ">Send enquiry</Link>
                 </MDBCol>
 
                 <MDBCol className="mt-4 text-center" lg={12}>

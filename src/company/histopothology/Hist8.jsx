@@ -40,7 +40,7 @@ function Hist8() {
                 </MDBCol>
 
                 <MDBCol lg={12} className=" my-4 text-center">
-                    <Link to={'/contact'} className="btn btn-primary ">Send enquiry</Link>
+                    <Link to={'/contact'} className="addEff2 btn btn-primary ">Send enquiry</Link>
                 </MDBCol>
 
                 <p className="mt-4  fw-bold">Dakewe’s HistoFlo™ cassettes are engineered to optimize print quality when used with C100 series cassette printers from Dakewe. The cassettes allow efficient processing and specimen safety. HistoFlo™ cassettes are made of P.O.M materials and resistant to common processing chemicals and heat.</p>

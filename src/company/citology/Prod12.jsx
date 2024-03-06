@@ -50,7 +50,7 @@ function Prod12() {
                     </p>
 
 
-                    <Link to={'/contact'} className="btn btn-primary ">Send enquiry</Link>
+                    <Link to={'/contact'} className="addEff2 btn btn-primary ">Send enquiry</Link>
                     
                     {/* <form>
                             <MDBRow className='mb-4'>

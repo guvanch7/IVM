@@ -9,6 +9,7 @@ import {
 } from 'mdb-react-ui-kit';
 import Select from 'react-select'
 import { Link } from 'react-router-dom';
+import background from '../assets/background.png'
 
 
 const options = [
@@ -68,7 +69,7 @@ function ServiceThird() {
 
     return (
         <div>
-            <MDBContainer>
+            <MDBContainer className='background-logo' style={{backgroundImage: `url(${background})` }}>
 
                 <MDBBtn className="mt-5" floating size='lg' tag='a'>
                     <Link to='/' className="text-white"><MDBIcon size="2x" fas icon="arrow-circle-left" /></Link>
@@ -106,7 +107,7 @@ function ServiceThird() {
 
 
 
-                            <MDBBtn className='mb-4 mt-3 w-25 ' type='submit'>
+                            <MDBBtn className='addEff2 mb-4 mt-3 w-25 ' type='submit'>
                                 Send
                             </MDBBtn>
                         </form>

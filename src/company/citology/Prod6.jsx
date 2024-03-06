@@ -22,7 +22,7 @@ function Prod6() {
             <h1>LTS-V800 - VAGINAL SECRETION ANALYZER</h1>
             <MDBRow className="justify-content-center">
                 <MDBCol lg={5}>
-                    <img src={product6} className="w-100" alt="" />
+                    <img src={product6} className=" w-100" alt="" />
 
                 </MDBCol>
 
@@ -45,7 +45,7 @@ function Prod6() {
 
                         Single, quintuple, sextuple test all applicable. <br />
                     </p>
-                    <Link to={'/contact'} className="btn btn-primary ">Send enquiry</Link>
+                    <Link to={'/contact'} className="addEff2 btn btn-primary ">Send enquiry</Link>
 
                     {/* <form>
                             <MDBRow className='mb-4'>

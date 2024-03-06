@@ -41,21 +41,21 @@ import {
 const catalogs = [
     {
         id: 1,
-        name: 'Cytology.',
+        name: 'Cytology',
         image: catalog1_1,
         description: 'Cell Expert is a high speed instrument with automatic opening and closing of specimen vials.',
     },
 
     {
         id: 2,
-        name: 'Histopathology.',
+        name: 'Histopathology',
         image: catalog1_2,
         description: 'Cell Expert is a high speed instrument with automatic opening and closing of specimen vials.',
     },
 
     {
         id: 3,
-        name: 'Bacteriology.',
+        name: 'Bacteriology',
         image: catalog1_3,
         description: 'Cell Expert is a high speed instrument with automatic opening and closing of specimen vials.',
     },
@@ -68,13 +68,13 @@ const catalogs = [
     },
     {
         id: 5,
-        name: 'Anesthesiology and Intensive Care Medicine.',
+        name: 'Anesthesiology and Intensive Care Medicine',
         image: catalog2,
         description: '  Dakewe HP300 Plus tissue processor is engineered to enable a smooth and effective workflow for your laboratory.',
     },
     {
         id: 6,
-        name: 'Gastroenterology. Diagnostics. Rehabilitation',
+        name: 'Gastroenterology Diagnostics Rehabilitation',
         image: catalog3,
         description: 'Description for Product 3',
     },
@@ -135,7 +135,7 @@ const catalogs = [
 
     {
         id: 14,
-        name: 'Sterilization, Disinfection, and Utilization',
+        name: 'Sterilization, Disinfection and Utilization',
         image: catalog11,
         description: 'Description for Product 3',
     },
@@ -150,7 +150,7 @@ const catalogs = [
 
     {
         id: 16,
-        name: 'Obstetrics, gynecology, and neonatology. ',
+        name: 'Obstetrics, gynecology and neonatology ',
         image: catalog1,
         description: 'Description for Product 3',
     },

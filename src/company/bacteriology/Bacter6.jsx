@@ -32,7 +32,7 @@ function Bacter6() {
                     <p>TRINITY V3 utilizes digital imaging to automate zone reading and calculations for antibiotic potency assays. An optional colony counting module is available. This complete industrial microbiology system is often used in pharmaceutical QA/QC microbiology laboratories. </p>
                     <p>TRINITY V3 strictly complies with 21 CFR Part 11 electronic signature requirements and follows USP 81, EP, BP and JP agar diffusion assay methods.  IQ OQ PQ validation documents are included with each system purchase. TRINITY V3 is designed and manufactured by Giles Scientific in Santa Barbara, California, USA.</p>
                     <p>Giles Scientific also sells peni cylinders and peni cylinder dispensers for antibiotic potency assays</p>
-                    <Link to={'/contact'} className="btn btn-primary ">Send enquiry</Link>
+                    <Link to={'/contact'} className="addEff2 btn btn-primary ">Send enquiry</Link>
                 </MDBCol>
                 <MDBCol className="mt-4" lg={6}>
                     <img src={product1} className="w-100" alt="" />

@@ -35,7 +35,7 @@ function Hist4() {
                     <img src={product2} className="w-100" alt="" />
                 </MDBCol>
                 <MDBCol lg={12} className=" my-4 text-center">
-                    <Link to={'/contact'} className="btn btn-primary ">Send enquiry</Link>
+                    <Link to={'/contact'} className="addEff2 btn btn-primary ">Send enquiry</Link>
                 </MDBCol>
 
                 <p><b>Designed with safety and innovation in mind, Dakewe HP300 Plus tissue processor is engineered to enable a smooth and effective workflow for your laboratory.</b></p>

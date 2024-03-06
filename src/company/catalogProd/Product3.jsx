@@ -5,7 +5,7 @@ import service1 from '../../assets/service1.jpg'
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import product1 from '../../assets/bacteriologyImg/product1.jpg'
 import product2 from '../../assets/bacteriologyImg/product2.png'
-import product3 from '../../assets/bacteriologyImg/prod2.3.png'
+import product3 from '../../assets/bacteriologyImg/hbl.jpg'
 import product4 from '../../assets/bacteriologyImg/prod2.4.png'
 import product5 from '../../assets/bacteriologyImg/product3.jpg'
 import product6 from '../../assets/bacteriologyImg/product4.jpg'

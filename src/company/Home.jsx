@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from 'react';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
-import equipment from '../assets/equipment.png'
+import equipment from '../assets/equipment.jpg'
 import Products from '../mainComponents/Products';
 import Partners from '../mainComponents/Partners';
 
@@ -38,13 +38,13 @@ function Home() {
 
                 <MDBRow className='justify-content-center align-items-center'>
                     <MDBCol md='6' lg='5'>
-                        <img src={equipment} className='w-100' alt="" />
+                        <img src={equipment} className='w-100 rounded-6 mb-5' alt="" />
                     </MDBCol>
                     <MDBCol md='12' lg='7' >
                         <p> <MDBIcon fas icon="check-circle" />   We specialize in providing professional audit and consulting services in healthcare organization</p>
                         <p> <MDBIcon fas icon="check-circle" /> Enhancing hospitals with essential medical equipment and consumables.</p>
                         <p> <MDBIcon fas icon="check-circle" />  Comprehensive medical equipment servicing throughout its life cycle.</p>
-                        <Modal modalName={'Start Cooperation'} />
+                        <Modal  modalName={'Start Cooperation'} />
                     </MDBCol>
                 </MDBRow>
             </MDBContainer>
@@ -76,20 +76,20 @@ function Home() {
             <Services />
 
             <MDBContainer fluid className='' >
-                <MDBContainer className='mt-5 ' >
+                <MDBContainer className='mt-2 ' >
 
                     <MDBRow id='counter' className=' justify-content-evenly align-items-center'>
 
-                        <MDBCol className="border-count rounded-6" sm={12} lg={3}>
+                        <MDBCol className="border-count rounded-6 mt-3" sm={12} lg={3}>
                             <li>
                                 <span className="count percent" data-count="2015">
                                 <h1>0</h1>
                                 </span>
-                                <h6>years in the medical industry</h6>
+                                <h6>since our establishment</h6>
                             </li>
                         </MDBCol>
 
-                        <MDBCol className="border-count rounded-6" sm={12} lg={3}>
+                        <MDBCol className="border-count rounded-6 mt-3" sm={12} lg={3}>
                             <li>
                                 <span className="count percent" data-count="29">
                                     <h1>0</h1>
@@ -98,7 +98,7 @@ function Home() {
                             </li>
                         </MDBCol>
 
-                        <MDBCol className="border-count rounded-6" sm={12} lg={3}>
+                        <MDBCol className="border-count rounded-6 mt-3" sm={12} lg={3}>
                             <li>
                                 <span className="count percent" data-count="375">
                                 <h1>0</h1>

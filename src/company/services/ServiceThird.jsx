@@ -8,6 +8,7 @@ import {
     MDBRow, MDBCol, MDBIcon, MDBBtn
 } from 'mdb-react-ui-kit';
 import { Link } from 'react-router-dom';
+import background from '../../assets/background.png'
 
 import service3 from '../../assets/service3.jpg'
 
@@ -18,7 +19,7 @@ import service3 from '../../assets/service3.jpg'
 
 function ServiceThird() {
     return (
-        <MDBContainer>
+        <MDBContainer  className="background-logo" style={{backgroundImage: `url(${background})` }}>
 
             <MDBBtn className="mt-5" floating size='lg' tag='a'>
                 <Link to='/services' className="text-white"><MDBIcon size="2x" fas icon="arrow-circle-left" /></Link>

@@ -26,6 +26,7 @@ import partn8 from '../partnersImg/Partner8.png'
 import partn9 from '../partnersImg/Partner9.png'
 import partn10 from '../partnersImg/Partner10.png'
 import partn11 from '../partnersImg/Partner11.png'
+import background from '../assets/background.png' 
 
 
 function Brands() {
@@ -33,7 +34,7 @@ function Brands() {
 
     return (
         <>
-            <MDBContainer className="mt-4 ">
+            <MDBContainer className="mt-4 background-logo" style={{backgroundImage: `url(${background})` }}  >
                 <h1 className="text-center">Our Partners</h1>
                 <p>
                     IVM partners with trusted organizations and institutions worldwide.
@@ -44,16 +45,16 @@ function Brands() {
                     mutual benefit and success to all involved.
                 </p>
                 <MDBRow className="align-items-center ">
-                    <MDBCol className="text-center mt-5" lg={4} md={6}><img src={partn1} alt="" /></MDBCol>
-                    <MDBCol className="text-center mt-5" lg={4} md={6}><img src={partn2} alt="" /></MDBCol>
-                    <MDBCol className="text-center mt-5" lg={4} md={6}><img src={partn3} alt="" /></MDBCol>
-                    <MDBCol className="text-center mt-5" lg={4} md={6}><img src={partn4} alt="" /></MDBCol>
-                    <MDBCol className="text-center mt-5" lg={4} md={6}><img src={partn5} alt="" /></MDBCol>
-                    <MDBCol className="text-center mt-5" lg={4} md={6}><img src={partn7} alt="" /></MDBCol>
-                    <MDBCol className="text-center mt-5" lg={4} md={6}><img src={partn8} alt="" /></MDBCol>
-                    <MDBCol className="text-center mt-5" lg={4} md={6}><img src={partn9} alt="" /></MDBCol>
-                    <MDBCol className="text-center mt-5 mb-5" lg={4} md={6}><img src={partn10} alt="" /></MDBCol>
-                    <MDBCol className="text-center mt-5 mb-5" lg={4} md={6}><img src={partn11} alt="" /></MDBCol>
+                    <MDBCol className="text-center mt-5" lg={4} md={6}><img className="w-50" src={partn1} alt="" /></MDBCol>
+                    <MDBCol className="text-center mt-5" lg={4} md={6}><img className="w-75" src={partn8} alt="" /></MDBCol>
+                    <MDBCol className="text-center mt-5" lg={4} md={6}><img className="w-50" src={partn3} alt="" /></MDBCol>
+                    <MDBCol className="text-center mt-5" lg={4} md={6}><img className="w-25" src={partn4} alt="" /></MDBCol>
+                    <MDBCol className="text-center mt-5" lg={4} md={6}><img className="w-25" src={partn5} alt="" /></MDBCol>
+                    {/* <MDBCol className="text-center mt-5" lg={4} md={6}><img className="w-" src={partn7} alt="" /></MDBCol> */}
+                    <MDBCol className="text-center mt-5" lg={4} md={6}><img className="w-30" src={partn2} alt="" /></MDBCol>
+                    <MDBCol className="text-center mt-5 mb-5" lg={4} md={6}><img className="w-25" src={partn11} alt="" /></MDBCol>
+                    <MDBCol className="text-center mt-5" lg={4} md={6}><img className="w-30" src={partn9} alt="" /></MDBCol>
+                    <MDBCol className="text-center mt-5 mb-5" lg={4} md={6}><img className="w-50" src={partn10} alt="" /></MDBCol>
                 </MDBRow>
             </MDBContainer>
         </>

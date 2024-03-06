@@ -34,7 +34,7 @@ function Hist3() {
                     <img src={product3} className="w-100" alt="" />
                 </MDBCol>
                 <MDBCol lg={12} className=" my-4 text-center">
-                    <Link to={'/contact'} className="btn btn-primary ">Send enquiry</Link>
+                    <Link to={'/contact'} className="addEff2 btn btn-primary ">Send enquiry</Link>
                 </MDBCol>
                 <p><b>Dakewe’s HP300 tissue processor provides reliable processing results and stable operation. Combining with multi-level reagent management, component monitoring and trustworthy technologies, HP300 tissue processor allows you feel confident in the workflow.</b></p>
 

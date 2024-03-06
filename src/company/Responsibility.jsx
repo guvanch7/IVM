@@ -13,9 +13,9 @@ import {
     MDBModalFooter,
 } from 'mdb-react-ui-kit';
 
-import bacteriology from '../assets/bacteriology.png'
-import citology from '../assets/Citology.png'
-import histology from '../assets/Histology.png'
+import bacteriology from '../assets/catalogsImg/catalog1.3.jpeg'
+import citology from '../assets/catalogsImg/catalog1.1.jpg'
+import histology from '../assets/catalogsImg/catalog1.2.jpg'
 import item from '../assets/item.png'
 
 
@@ -33,10 +33,10 @@ function Responsibilities() {
             <MDBContainer fluid className="mt-5 uniqueRight">
                 <MDBContainer className="">
 
-                    <MDBRow className="align-items-center">
+                    <MDBRow className="align-items-center p-5">
 
-                        <MDBCol lg={4}>
-                            <img src={bacteriology} className="img-fluided w-100" />
+                        <MDBCol  lg={4}>
+                            <img src={bacteriology} className=" rounded-6 img-fluided w-100" />
                         </MDBCol>
 
                         <MDBCol lg={8}>
@@ -58,7 +58,7 @@ function Responsibilities() {
             <MDBContainer fluid className="mt-5 p-5 uniqueLeft">
                 <MDBContainer className="">
 
-                    <MDBRow className="align-items-center">
+                    <MDBRow className="align-items-center p-5">
 
 
 
@@ -74,7 +74,7 @@ function Responsibilities() {
 
 
                         <MDBCol lg={4}>
-                            <img src={citology} className="img-fluided w-100" />
+                            <img src={citology} className="rounded-6 img-fluided w-100" />
                         </MDBCol>
 
                     </MDBRow>
@@ -86,10 +86,10 @@ function Responsibilities() {
             <MDBContainer fluid className="my-5 uniqueRight">
                 <MDBContainer className="">
 
-                    <MDBRow className="align-items-center">
+                    <MDBRow className="align-items-center p-5">
 
                         <MDBCol lg={4}>
-                            <img src={bacteriology} className="img-fluided w-100" />
+                            <img src={histology} className="img-fluided rounded-6 w-100" />
                         </MDBCol>
 
                         <MDBCol lg={8}>

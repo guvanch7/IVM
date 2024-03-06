@@ -37,7 +37,7 @@ function Hist6() {
                 </MDBCol>
 
                 <MDBCol lg={12} className=" my-4 text-center">
-                    <Link to={'/contact'} className="btn btn-primary ">Send enquiry</Link>
+                    <Link to={'/contact'} className="addEff2 btn btn-primary ">Send enquiry</Link>
                 </MDBCol>
 
                 <p className="mt-4 text-center"><b>Dakewe 6250 Cryostat Microtome features high refrigeration capacity, fast cooling and stable sectioning result.</b></p>

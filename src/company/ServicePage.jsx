@@ -23,14 +23,15 @@ import audit from '../assets/icons/audit.png';
 import design from '../assets/icons/design.png';
 import repair from '../assets/icons/repair.png';
 import arrow from '../assets/icons/arrow.png';
+import background from '../assets/background.png'
 function ServicePage() {
 
 
     return (
         <>
-            <MDBContainer className="bg_milky" fluid >
+            <MDBContainer className="background-logo" fluid  style={{backgroundImage: `url(${background})` }}>
                 <MDBContainer className="  ">
-                    <h5 className="zagolovok pt-5">OUR SERVICES</h5>
+                    <h5 className=" fw-bolder pt-5">OUR SERVICES</h5>
 
                     <h4>
                         Our approach to service sets us apart
@@ -78,7 +79,7 @@ function ServicePage() {
                             </Link>
                         </MDBCol>
 
-                        <MDBCol lg={5} md={5} sm={11} className="card-service bg-white rounded-7 px-4 py-3  offset-lg-3 order-lg-last">
+                        <MDBCol lg={5} md={5} sm={11} className="card-service bg-white my-4 rounded-7 px-4 py-3  offset-lg-3 order-lg-last">
                             <Link to={'/service1'}>
                                 <div class="arrow rounded-6">
                                     <div class="border-arrow rounded-6 p-3">
