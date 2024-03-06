@@ -146,7 +146,9 @@ function App() {
           <MDBNavbar expand='lg' light bgColor='light'>
             <MDBContainer fluid>
               <MDBNavbarBrand href='#'>
+                <Link to={'/'}>
                 <img src={Logo} height={50} />
+                </Link>
               </MDBNavbarBrand>
 
               <MDBNavbarToggler
@@ -169,7 +171,7 @@ function App() {
                     </MDBNavbarLink>
                   </MDBNavbarItem>
 
-                   <MDBNavbarItem className="me-3">
+                  <MDBNavbarItem className="me-3">
                     <MDBDropdown  >
                       <MDBDropdownToggle tag='a' className='nav-link active' role='button'>
                         Company
@@ -178,27 +180,27 @@ function App() {
 
                       <MDBDropdownMenu>
 
-                        <MDBDropdownItem  link>
-                          <Link to='/about' >
+                        <Link to='/about' >
+                          <MDBDropdownItem link>
                             About Us
-                          </Link>
-                        </MDBDropdownItem>
+                          </MDBDropdownItem>
+                        </Link>
 
-                        
 
-                        <MDBDropdownItem   link>
-                          <Link to='/responsibility'>
-                          Integrated solutions
-                          </Link>
-                        </MDBDropdownItem>
 
-                         
+                        <Link to='/responsibility'>
+                          <MDBDropdownItem link>
+                            Comprehensive solutions
+                          </MDBDropdownItem>
+                        </Link>
 
-                        <MDBDropdownItem  link>
-                          <Link to='/brands'>
+
+
+                        <Link to='/brands'>
+                          <MDBDropdownItem link>
                             Partners
-                          </Link>
-                        </MDBDropdownItem>
+                          </MDBDropdownItem>
+                        </Link>
 
                       </MDBDropdownMenu>
                     </MDBDropdown>
@@ -207,15 +209,15 @@ function App() {
                   <MDBNavbarItem className="me-3 active">
                     <MDBNavbarLink className='active'>
                       <Link to={'/catalogs'}>
-                      Products
+                        Products
                       </Link>
-                      </MDBNavbarLink>
+                    </MDBNavbarLink>
                   </MDBNavbarItem>
 
                   <MDBNavbarItem className="me-3">
                     <MDBNavbarLink className='active' >
                       <Link to={'/services'}>
-                      Services
+                        Services
                       </Link>
                     </MDBNavbarLink>
                   </MDBNavbarItem>
@@ -223,9 +225,9 @@ function App() {
                   <MDBNavbarItem className="me-3">
                     <MDBNavbarLink className='active' >
                       <Link to={'/contact'}>
-                      Contacts
+                        Contacts
                       </Link>
-                      </MDBNavbarLink>
+                    </MDBNavbarLink>
                   </MDBNavbarItem>
 
                 </MDBNavbarNav>
@@ -245,13 +247,13 @@ function App() {
             <Route path='/responsibility' Component={Responsibility}></Route>
 
             <Route path='/brands' Component={Brands}></Route>
-            
+
             <Route path='/catalogs' Component={Catalogs}></Route>
 
             <Route path='/catalog1' Component={Product1}></Route>
-            
+
             <Route path='/catalog2' Component={Product2}></Route>
-            
+
             <Route path='/catalog3' Component={Product3}></Route>
 
             <Route path='/catalog4' Component={Product4}></Route>
@@ -265,10 +267,10 @@ function App() {
             <Route path='/service3' Component={ServiceThird}></Route>
 
             <Route path='/contact' Component={Contact}></Route>
-           
-           
+
+
             <Route path='/prod1' Component={Prod1}></Route>
-           
+
             <Route path='/prod2' Component={Prod2}></Route>
 
             <Route path='/prod3' Component={Prod3}></Route>
@@ -276,61 +278,61 @@ function App() {
             <Route path='/prod4' Component={Prod4}></Route>
 
             <Route path='/prod5' Component={Prod5}></Route>
-            
+
             <Route path='/prod6' Component={Prod6}></Route>
-         
+
             <Route path='/prod7' Component={Prod7}></Route>
-           
+
             <Route path='/prod8' Component={Prod8}></Route>
-         
+
             <Route path='/prod9' Component={Prod9}></Route>
 
             <Route path='/prod10' Component={Prod10}></Route>
 
             <Route path='/prod11' Component={Prod11}></Route>
-           
+
             <Route path='/prod12' Component={Prod12}></Route>
-           
+
             <Route path='/prod13' Component={Prod13}></Route>
 
             <Route path='/prod14' Component={Prod14}></Route>
-        
+
             <Route path='/prod15' Component={Prod15}></Route>
 
             <Route path='/prod16' Component={Prod16}></Route>
-            
+
             <Route path='/prod17' Component={Prod17}></Route>
 
             <Route path='/hist1' Component={Hist1}></Route>
-            
+
             <Route path='/hist2' Component={Hist2}></Route>
-            
+
             <Route path='/hist3' Component={Hist3}></Route>
 
             <Route path='/hist4' Component={Hist4}></Route>
-           
+
             <Route path='/hist5' Component={Hist5}></Route>
 
             <Route path='/hist6' Component={Hist6}></Route>
 
             <Route path='/hist7' Component={Hist7}></Route>
-            
+
             <Route path='/hist8' Component={Hist8}></Route>
-           
+
             <Route path='/hist9' Component={Hist9}></Route>
-           
+
             <Route path='/hist10' Component={Hist10}></Route>
-           
+
             <Route path='/bacter1' Component={Bacter1}></Route>
-           
+
             <Route path='/bacter2' Component={Bacter2}></Route>
-          
+
             <Route path='/bacter3' Component={Bacter3}></Route>
-            
+
             <Route path='/bacter4' Component={Bacter4}></Route>
-            
+
             <Route path='/bacter5' Component={Bacter5}></Route>
-            
+
             <Route path='/bacter6' Component={Bacter6}></Route>
 
             <Route path='/lab1' Component={Lab1}></Route>
@@ -345,104 +347,104 @@ function App() {
 
 
           <MDBFooter style={{ backgroundColor: '#EDF7FF' }} className='text-center text-lg-start text-muted'>
-        <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
+            <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
 
-        </section>
+            </section>
 
-        <section className=''>
-          <MDBContainer className='text-center text-md-start mt-5'>
-            <MDBRow className='mt-3'>
-              <MDBCol md='3' lg='4' xl='3' className='mx-auto mb-4'>
-                <h6 className='text-uppercase fw-bold mb-4'>
-                  <img src={Logo} height={50} />
-                </h6>
-                <p>
-                  Explore our comprehensive solutions to help you do your job.
-                </p>
-              </MDBCol>
+            <section className=''>
+              <MDBContainer className='text-center text-md-start mt-5'>
+                <MDBRow className='mt-3'>
+                  <MDBCol md='3' lg='4' xl='3' className='mx-auto mb-4'>
+                    <h6 className='text-uppercase fw-bold mb-4'>
+                      <Link to={'/'}> <img src={Logo} height={50} /></Link>
+                    </h6>
+                    <p>
+                      Explore our comprehensive solutions to help you do your job.
+                    </p>
+                  </MDBCol>
 
-              <MDBCol md='2' lg='2' xl='2' className='mx-auto mb-4'>
-                <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
-                <p>
-                  <Link to={'/'} className='text-reset'>
-                    Home
-                  </Link>
-                </p>
-                <p>
-                  <Link to={'/about'} className='text-reset'>
-                    About Us
-                  </Link>
-                </p>
-                <p>
-                  <Link to={'/catalogs'} className='text-reset'>
-                     Catalog
-                  </Link>
-                </p>
-                <p>
-                  <Link to={'/responsibility'} className='text-reset'>
-                  Integrated solutions
-                  </Link>
-                </p>
-             
-              </MDBCol>
+                  <MDBCol md='2' lg='2' xl='2' className='mx-auto mb-4'>
+                    <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
+                    <p>
+                      <Link to={'/'} className='text-reset'>
+                        Home
+                      </Link>
+                    </p>
+                    <p>
+                      <Link to={'/about'} className='text-reset'>
+                        About Us
+                      </Link>
+                    </p>
+                    <p>
+                      <Link to={'/catalogs'} className='text-reset'>
+                        Catalog
+                      </Link>
+                    </p>
+                    <p>
+                      <Link to={'/responsibility'} className='text-reset'>
+                        Comprehensive solutions
+                      </Link>
+                    </p>
 
-              <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4'>
-                <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
-                <p>
-                  <Link to={'/catalogs'} className='text-reset'>
-                    Products
-                  </Link>
-                </p>
-                <p>
-                  <Link to={'/services'} className='text-reset'>
-                    Services
-                  </Link>
-                </p>
-                <p>
-                  <Link to={'/contact'} className='text-reset'>
-                    Contacts
-                  </Link>
-                </p>
-                <p>
-                  <Link to={'/brands'} className='text-reset'>
-                    Partners
-                  </Link>
-                </p>
-              </MDBCol>
+                  </MDBCol>
 
-              <MDBCol md='4' lg='3' xl='3' className='mx-auto mb-md-0 mb-4'>
-                <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
-                <p>
-                  <MDBIcon color='secondary' icon='home' className='me-2' />
-                  P.O. Box 390789, Ras Al Khaimah, Dubai, UAE
-                </p>
-                <p>
-                  <MDBIcon color='secondary' icon='envelope' className='me-3' />
-                  info@ivmmedical.com
-                </p>
-              </MDBCol>
+                  <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4'>
+                    <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
+                    <p>
+                      <Link to={'/catalogs'} className='text-reset'>
+                        Products
+                      </Link>
+                    </p>
+                    <p>
+                      <Link to={'/services'} className='text-reset'>
+                        Services
+                      </Link>
+                    </p>
+                    <p>
+                      <Link to={'/contact'} className='text-reset'>
+                        Contacts
+                      </Link>
+                    </p>
+                    <p>
+                      <Link to={'/brands'} className='text-reset'>
+                        Partners
+                      </Link>
+                    </p>
+                  </MDBCol>
 
-            </MDBRow>
-          </MDBContainer>
-        </section>
+                  <MDBCol md='4' lg='3' xl='3' className='mx-auto mb-md-0 mb-4'>
+                    <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
+                    <p>
+                      <MDBIcon color='secondary' icon='home' className='me-2' />
+                      P.O. Box 390789, Ras Al Khaimah, Dubai, UAE
+                    </p>
+                    <p>
+                      <MDBIcon color='secondary' icon='envelope' className='me-3' />
+                      info@ivmmedical.com
+                    </p>
+                  </MDBCol>
 
-        <div className='text-center p-4' style={{ backgroundColor: '#DCE6F7' }}>
-          <p>
-            © 2024 Copyright: <b>
-              IVM Medical Equipment Trading Ltd
-            </b>
-          </p>
-          <a className='text-reset fw-bold' href=' '>
+                </MDBRow>
+              </MDBContainer>
+            </section>
 
-          </a>
-        </div>
-      </MDBFooter>
+            <div className='text-center p-4' style={{ backgroundColor: '#DCE6F7' }}>
+              <p>
+                © 2024 Copyright: <b>
+                  IVM Medical Equipment Trading Ltd
+                </b>
+              </p>
+              <a className='text-reset fw-bold' href=' '>
+
+              </a>
+            </div>
+          </MDBFooter>
         </div>
       </Router>
 
 
 
-      
+
 
     </div>
   )
