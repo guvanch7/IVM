@@ -33,9 +33,30 @@ li {
     color: #3775e5;
 }
 
+.w-30 {
+    width: 30%;
+}
+
 .brandName {
     color: #00294a;
     font-weight: bolder;
+}
+
+.slick-track {
+    margin: auto;
+}
+
+.slick-initialized .slick-slide {
+    justify-content: center;
+}
+
+.slick-slide img {
+    display: unset;
+}
+
+.slick-slide div {
+    justify-content: center;
+    text-align: center;
 }
 
 .uniqueBg {
@@ -69,6 +90,10 @@ li {
 
 .addEff {
     color: #42A5F5;
+}
+
+.addEff2 {
+    background-color: #42A5F5;
 }
 
 .step {
@@ -158,8 +183,8 @@ li {
     margin: 0 auto;
     text-align: center;
     font-size: 1.5rem;
-    color: #000;
-    background-color: #e6ecff;
+    color: #fff;
+    background-color: #42A5F5;
     border: none;
     border-radius: 0.4rem;
     transition: .5s;
@@ -172,7 +197,7 @@ li {
     text-align: center;
     font-size: 1.5rem;
     color: #fff;
-    background-color: #2e9aad;
+    background-color: #42A5F5;
     border: none;
     border-radius: 0.4rem;
     transition: .5s;
@@ -233,6 +258,7 @@ li {
 .card-service {
     position: relative;
     transition: .2s;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 .card-service:hover {
@@ -250,7 +276,7 @@ li {
 }
 
 .border-arrow {
-    background-color: #000;
+    background-color: #42A5F5;
     /* border: 15px solid rgb(240, 234, 234); */
 }
 
@@ -518,4 +544,15 @@ li {
 
 .slick-arrow {
     display: none;
+}
+
+.background-logo {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    /* opacity: 0.2; */
+    /* Дополнительный отступ для содержимого контейнера */
+    color: white;
+    /* Цвет текста для лучшей видимости на фоне */
 }
