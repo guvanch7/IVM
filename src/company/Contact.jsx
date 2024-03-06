@@ -90,7 +90,7 @@ function ServiceThird() {
                         <form ref={form} onSubmit={sendEmail}>
                             <MDBRow className='mb-4'>
                                 <MDBCol>
-                                    <Select placeholder={'Inquiry type'} name={'inquiry_type'} options={options} />
+                                    <Select className='text-black  ' placeholder={'Inquiry type'} name={'inquiry_type'} options={options} />
                                 </MDBCol>
                                 <MDBCol>
                                     <MDBInput id='form6Example2' name='from_name' label='Name' onChange={handleChange} value={formData.from_name} />

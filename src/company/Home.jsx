@@ -13,7 +13,7 @@ import Modal from "../mainComponents/Modal";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import {
     MDBContainer, MDBRow, MDBCol, MDBIcon, MDBBtn,
- 
+
 } from 'mdb-react-ui-kit';
 
 import Header from "../mainComponents/Header";
@@ -42,9 +42,9 @@ function Home() {
                     </MDBCol>
                     <MDBCol md='12' lg='7' >
                         <p> <MDBIcon fas icon="check-circle" />   We specialize in providing professional audit and consulting services in healthcare organization</p>
-                        <p> <MDBIcon fas icon="check-circle" /> Enhancing hospitals with essential medical equipment and consumables.</p>
+                        <p> <MDBIcon fas icon="check-circle" />Equipping hospitals with necessary medical equipment and consumables.</p>
                         <p> <MDBIcon fas icon="check-circle" />  Comprehensive medical equipment servicing throughout its life cycle.</p>
-                        <Modal  modalName={'Start Cooperation'} />
+                        <Modal modalName={'Start Cooperation'} />
                     </MDBCol>
                 </MDBRow>
             </MDBContainer>
@@ -63,10 +63,10 @@ function Home() {
                             <p>
                                 <b>
                                     IVM Medical Equipment Trading Ltd
-                                </b> - operating in the CIS and India markets. We specialize in supplying advanced medical 
-                                    equipment and we also provide first-class service support. Over the 9 years of our work,
-                                    we have maintained our reputation as a reliable partner,
-                                    supplier and innovator in the healthcare sector.
+                                </b> -   operates in the CIS countries
+                                and Indian markets. We specialize in supplying modern medical equipment and
+                                also provide first-class service support. Since 2015, we have earned a reputation
+                                as a reliable partner, supplier and innovator in the healthcare sector.
                             </p>
                         </MDBCol>
                     </MDBRow>
@@ -83,7 +83,7 @@ function Home() {
                         <MDBCol className="border-count rounded-6 mt-3" sm={12} lg={3}>
                             <li>
                                 <span className="count percent" data-count="2015">
-                                <h1>0</h1>
+                                    <h1>0</h1>
                                 </span>
                                 <h6>since our establishment</h6>
                             </li>
@@ -101,13 +101,13 @@ function Home() {
                         <MDBCol className="border-count rounded-6 mt-3" sm={12} lg={3}>
                             <li>
                                 <span className="count percent" data-count="375">
-                                <h1>0</h1>
+                                    <h1>0</h1>
                                 </span>
                                 <h6>satisfied customers</h6>
                             </li>
                         </MDBCol>
 
-                       
+
 
                     </MDBRow>
 
@@ -118,12 +118,13 @@ function Home() {
 
             <div className='hero-dioganal mt-4'>
                 <MDBContainer className=' p-5 content'>
-                    <h1 className='text-center'>Receive expert advice for free.</h1>
+                    <h1 className='text-center'>Get a free expert consultation.</h1>
                     <MDBRow className='justify-content-center'>
                         <MDBCol lg={8} sm={12}>
                             <p>
                                 Our team of experts is ready to assist you with any inquiries regarding medical equipment,
-                                its applications, and pricing. We'll tailor solutions to your needs and provide personalized commercial offers.
+                                its applications, and pricing. We'll tailor solutions to your needs and provide personalized
+                                commercial offers.
                             </p>
                         </MDBCol>
                         <MDBCol lg={4} sm={12}>

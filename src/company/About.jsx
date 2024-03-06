@@ -25,7 +25,7 @@ function About() {
     return (
         <>
 
-            <MDBContainer className="background-logo mt-5" style={{backgroundImage: `url(${background})` }}>
+            <MDBContainer className="background-logo mt-5" style={{ backgroundImage: `url(${background})` }}>
                 <h1 className="text-center mb-4">IVM - Empowering Health through Technology</h1>
                 <p>
                     <b>IVM Medical Equipment Trading Ltd</b> (IVM)  was founded in 2015 in the UAE.
@@ -33,16 +33,15 @@ function About() {
                 </p>
 
                 <p>
-                    Global manufacturers of medical equipment and consumables trust IVM for promotion and sales in CIS and India.
+                    Global manufacturers of medical equipment and consumables trust IVM for promotion and sales their products in CIS countries and India.
                 </p>
 
                 <p>
-                    The range of medical products helps fully equip medical institutions of any profile in tight timeframes. That's why IVM is one of the few operators in the market of comprehensive projects.
+                    The range of medical products helps fully equip healthcare facilities of any profile in tight timeframes. That's why IVM is one of the few operators in the market of comprehensive projects.
                 </p>
 
                 <p>
-
-                    The company's clients include state healthcare institutions and laboratories, commercial clinics, research institutes, sanatoriums, veterinary clinics, livestock complexes, and the food industry.
+                The company's clients include state healthcare facilities and laboratories, commercial clinics, research institutes, sanatoriums, veterinary clinics, livestock complexes, and the food industry.
                 </p>
 
                 <p>
