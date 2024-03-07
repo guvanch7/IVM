@@ -550,7 +550,79 @@ li {
     }
 }
 
-.slick-arrow, .slick-next {
+
+/* CAROUSEL4 */
+
+.carousel-block4 {
+    position: absolute;
+    top: 50%;
+    left: 27%;
+    right: 27%;
+    /* Измените значение left, чтобы регулировать положение блока влево */
+    transform: translateY(-50%);
+}
+
+.carousel-block4 h1 {
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+
+.carousel-block4 p {
+    font-size: 1.5rem;
+}
+
+.carousel-block4 .btn {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .carousel-block4 h1 {
+        font-size: 2.5rem;
+        margin-top: 10px;
+    }
+    .carousel-block4 p {
+        font-size: 1.2rem;
+        display: none;
+    }
+    .carousel-block4 .btn {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 568px) {
+    .carousel-block4 {
+        margin-top: 5px;
+    }
+    .carousel-block4 h1 {
+        font-size: 1.5rem;
+    }
+    .carousel-block4 .btn {
+        font-size: 0.8rem;
+        margin-top: unset;
+    }
+}
+
+@media (max-width: 375px) {
+    .carousel-block4 {
+        margin-bottom: 35px;
+    }
+    .carousel-block4 h1 {
+        font-size: 1rem;
+        /* display: none; */
+    }
+    .carousel-block4 .btn {
+        font-size: 0.8rem;
+        padding: 10px;
+        margin-top: 0px;
+    }
+}
+
+
+/*  */
+
+.slick-arrow,
+.slick-next {
     display: none;
 }
 
