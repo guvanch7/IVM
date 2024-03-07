@@ -16,7 +16,7 @@ function MyCarousel() {
           <img src={carousel1} className='d-block w-100 ' alt='...' />
           <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.1)' }}>
             <div className='col-5 text-white carousel-block1'>
-              <h1 className='display-3 text-white fw-bolder mt-2 carousel-txt'>Comprehensive solution for bacteriology</h1>
+              <h1 className='display-3 text-white fw-bolder mt-2 carousel-txt'>Comprehensive Solution For Bacteriology</h1>
               {/* <p className='text-white'>Explore our diverse range of high-quality bacteriology equipment by clicking the link below.</p> */}
 
               {/* <Link to={'/catalog3'} className='btn btn-light' >See More</Link> */}
