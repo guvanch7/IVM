@@ -550,7 +550,7 @@ li {
     }
 }
 
-.slick-arrow {
+.slick-arrow, .slick-next {
     display: none;
 }
 
