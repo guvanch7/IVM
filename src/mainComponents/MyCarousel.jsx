@@ -30,7 +30,7 @@ function MyCarousel() {
           <img src={carousel2} className='d-block w-100' alt='...' />
           <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.1)' }}>
             <div className='col-5 carousel-block2'>
-              <h1 className='display-3 fw-bolder carousel-txt'>Citology</h1>
+              <h1 className='display-3 fw-bolder carousel-txt'>Cytology</h1>
               {/* <p>Delve into our exclusive range of cytology tools and instruments by accessing the link provided.</p> */}
               {/* <Link to={'/catalog1'}  className='btn btn-dark'>See More</Link> */}
 
