@@ -1,9 +1,10 @@
 import React from "react";
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import equipment from '../assets/equipment.jpg'
 import Products from '../mainComponents/Products';
 import Partners from '../mainComponents/Partners';
+
 
 
 import Services from '../mainComponents/Services';
@@ -12,7 +13,13 @@ import Modal from "../mainComponents/Modal";
 
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import {
-    MDBContainer, MDBRow, MDBCol, MDBIcon, MDBBtn,
+    MDBContainer, MDBRow, MDBCol, MDBIcon, MDBNavbar,
+    MDBNavbarNav,
+    MDBNavbarItem,
+    MDBNavbarLink,
+    MDBNavbarToggler,
+    MDBCollapse,
+    MDBBtn
 
 } from 'mdb-react-ui-kit';
 
@@ -38,29 +45,34 @@ function Home() {
 
                 <MDBRow className='justify-content-center align-items-center'>
                     <MDBCol md='6' lg='5'>
-                        <img src={equipment} className='w-100 rounded-6 mb-5' alt="" />
+                        <img src={equipment} className='w-100 img-fluided rounded-6 mb-5 animate__animated animate__fadeInLeft ' alt="" />
                     </MDBCol>
                     <MDBCol md='12' lg='7' >
-                        <p> <MDBIcon fas icon="check-circle" />   We specialize in providing professional audit and consulting services in healthcare organization</p>
-                        <p> <MDBIcon fas icon="check-circle" />Equipping hospitals with necessary medical equipment and consumables.</p>
-                        <p> <MDBIcon fas icon="check-circle" />  Comprehensive medical equipment servicing throughout its life cycle.</p>
+                        <p className="animate__animated animate__fadeInDown animate__delay-1s animate__fast"> <MDBIcon fas icon="check-circle" />   We specialize in providing professional audit and consulting services in healthcare organization</p>
+                        <p className="animate__animated animate__fadeInDown animate__delay-1s animate__fast"> <MDBIcon fas icon="check-circle" />Equipping hospitals with necessary medical equipment and consumables.</p>
+                        <p className="animate__animated animate__fadeInDown animate__delay-3s animate__fast"> <MDBIcon fas icon="check-circle" />  Comprehensive medical equipment servicing throughout its life cycle.</p>
                         <Modal modalName={'Start Cooperation'} />
                     </MDBCol>
                 </MDBRow>
             </MDBContainer>
 
-            <MDBContainer fluid className='mt- uniqueBg  p-3'>
+            <MDBContainer fluid className='mt-4 uniqueBg  p-3'>
 
                 <MDBContainer className='mt-4  p-1'>
                     <MDBRow className='align-items-center'>
                         <MDBCol className='text-left' lg={4}>
-                            <div className='mark-header text-left'>
+                            <div className='mark-header d-none d-lg-block text-left'>
+                                <h1 >About Company</h1>
+                                <hr className="linee" />
+                            </div>
+
+                            <div className="d-lg-none">
                                 <h1 >About Company</h1>
                                 <hr className="linee" />
                             </div>
                         </MDBCol>
                         <MDBCol>
-                            <p>
+                            <p className="mt-sm-2">
                                 <b>
                                     IVM Medical Equipment Trading Ltd
                                 </b> -   operates in the CIS countries
@@ -137,6 +149,9 @@ function Home() {
 
             <Partners />
         </>
+
+
+       
     );
 
 
