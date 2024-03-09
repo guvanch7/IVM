@@ -79,7 +79,7 @@ function MyCarousel() {
     <>
       <div className="header-video-container position-relative ">
 
-        <video className="w-100 bg-image" id="intro-example" style={{ maxWidth: '100%', maxHeight: '650px', objectFit: 'cover', backgroundPosition: 'center' }} class loop autoPlay muted playsInline preload="auto">
+        <video className="w-100   bg-image" id="intro-example" style={{ maxWidth: '100%', maxHeight: '650px', objectFit: 'cover', backgroundPosition: 'center' }} class loop autoPlay muted playsInline preload="auto">
           <source src={video4} />
         </video>
       </div>

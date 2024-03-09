@@ -132,7 +132,7 @@ function Products() {
                     <div className="card2">
                         <img className="card__img2" src={product10} alt="" />
                         <div className="card__content">
-                            <h4 className="card__header text-center">Microtome</h4>
+                            <h4 className="card__header text-center">MT1 Rotary Microtome</h4>
                             <Link to={`/hist5`} className="card__btn2">Read More</Link>
                         </div>
                     </div>

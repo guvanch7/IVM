@@ -21,7 +21,7 @@ function Services() {
             </p>
 
             <MDBRow>
-                <MDBCol md={4}>
+                <MDBCol md={6} lg={4}>
                     <div className="d-flex ">
                         <MDBIcon icon="user-tie" size="3x" className="me-3 addEff" />
                         <div>
@@ -31,7 +31,7 @@ function Services() {
                     </div>
                 </MDBCol>
 
-                <MDBCol md={4}>
+                <MDBCol md={6} lg={4}>
                     <div className="d-flex ">
                         <MDBIcon icon="hospital-alt" size="3x" className="me-3 addEff" />
                         <div>
@@ -41,7 +41,7 @@ function Services() {
                     </div>
                 </MDBCol>
 
-                <MDBCol md={4}>
+                <MDBCol md={6} lg={4}>
                     <div className="d-flex ">
                         <MDBIcon icon="laptop-medical" size="3x" className="me-3 addEff" />
                         <div>
@@ -51,7 +51,7 @@ function Services() {
                     </div>
                 </MDBCol>
 
-                <MDBCol md={4}>
+                <MDBCol md={6} lg={4}>
                     <div className="d-flex ">
                         <MDBIcon icon="headset" size="3x" className="me-3 addEff" />
                         <div>
@@ -61,7 +61,7 @@ function Services() {
                     </div>
                 </MDBCol>
 
-                <MDBCol md={4}>
+                <MDBCol md={6} lg={4}>
                     <div className="d-flex ">
                         <MDBIcon icon="calendar-check" size="3x" className="me-3 addEff" />
                         <div>
