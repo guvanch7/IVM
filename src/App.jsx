@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { useState, useEffect } from 'react'
-import Header from './mainComponents/Header'
+// import Header from './mainComponents/Header'
 import MyCarousel from './mainComponents/MyCarousel'
 import Modal from './mainComponents/Modal';
 import About from './company/About';
@@ -16,7 +16,7 @@ import Licenses from './company/Licenses';
 import Catalogs from './company/Catalogs';
 import Responsibility from './company/Responsibility'
 import Contact from './company/Contact'
-import Footer from './mainComponents/Footer';
+// import Footer from './mainComponents/Footer';
 import './assets/style.css'
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
