@@ -16,6 +16,10 @@ li {
     color: black;
 }
 
+.carousel-txt {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .nav-link {
     font-weight: bold;
 }
@@ -167,7 +171,7 @@ li {
 .card__img2 {
     display: block;
     width: 100%;
-    height: 15rem;
+    height: 14rem;
     /* object-fit: cover; */
 }
 
@@ -635,4 +639,10 @@ li {
     /* Дополнительный отступ для содержимого контейнера */
     color: white;
     /* Цвет текста для лучшей видимости на фоне */
+}
+
+video {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
 }
