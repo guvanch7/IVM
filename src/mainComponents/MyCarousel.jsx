@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from '../assets/carousel-1.jpg'
-import { MDBCarousel, MDBCarouselItem } from 'mdb-react-ui-kit';
+import { MDBCarousel, MDBCarouselItem, MDBCol, MDBRow, MDBContainer } from 'mdb-react-ui-kit';
 import carousel1 from '../assets/carousel1.png';
 import carousel2 from '../assets/carousel2.png';
 import carousel3 from '../assets/carousel3.png';
@@ -77,9 +77,18 @@ function MyCarousel() {
     // </MDBCarousel>
 
     <>
-      <div className="header-video-container position-relative ">
+      <div className="header-video-container position-relative" >
+        <div className="overlay-mask ">
+          <MDBRow>
+            <MDBCol className='carousel-block1 col-10 col-sm-8 col-md-8 col-lg-11'  >
+              <h1 className='text-white carousel-txt animate__animated animate__fadeInDown'>IVM Medical Equipment Trading</h1>
+              <p className='text-white animate__animated  animate__fadeInDown animate__fast'>Your slogan is here</p>
+            </MDBCol>
 
-        <video className="w-100   bg-image" id="intro-example" style={{ maxWidth: '100%', maxHeight: '650px', objectFit: 'cover', backgroundPosition: 'center' }} class loop autoPlay muted playsInline preload="auto">
+          </MDBRow>
+
+        </div>
+        <video className="w-100 bg-image " id="intro-example" style={{ maxWidth: '100%', maxHeight: '650px', objectFit: 'cover', backgroundPosition: 'center' }} loop autoPlay muted playsInline preload="auto">
           <source src={video4} />
         </video>
       </div>
