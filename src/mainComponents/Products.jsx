@@ -23,7 +23,7 @@ import {
 } from 'mdb-react-ui-kit';
 
 
- 
+
 
 
 
@@ -34,7 +34,7 @@ function Products() {
                 Offering medical equipment and supplies.
             </h1>
             <p>
-                Representing 29 global manufacturers of medical equipment and consumables, IVM is entrusted with promoting and selling their products in CIS and India.
+                Representing 29 global manufacturers of medical equipment and consumables, IVM is entrusted with promoting and selling their products in CIS countries and India.
             </p>
 
 
@@ -138,7 +138,7 @@ function Products() {
                     </div>
                 </MDBCol>
 
-               
+
             </MDBRow>
 
 

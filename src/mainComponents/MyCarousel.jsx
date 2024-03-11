@@ -82,7 +82,7 @@ function MyCarousel() {
           <MDBRow>
             <MDBCol className='carousel-block1 col-10 col-sm-8 col-md-8 col-lg-11'  >
               <h1 className='text-white carousel-txt animate__animated animate__fadeInDown'>IVM Medical Equipment Trading</h1>
-              <p className='text-white animate__animated  animate__fadeInDown animate__fast'>Your slogan is here</p>
+              <p className='text-white animate__animated  animate__fadeInDown animate__fast'>Innovation for your growth</p>
             </MDBCol>
 
           </MDBRow>
