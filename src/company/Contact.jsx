@@ -69,7 +69,7 @@ function ServiceThird() {
 
     return (
         <div>
-            <MDBContainer className='background-logo' style={{backgroundImage: `url(${background})` }}>
+            <MDBContainer className='background-logo' style={{ backgroundImage: `url(${background})` }}>
 
                 <MDBBtn className="mt-5" floating size='lg' tag='a'>
                     <Link to='/' className="text-white"><MDBIcon size="2x" fas icon="arrow-circle-left" /></Link>
@@ -84,10 +84,24 @@ function ServiceThird() {
                             Our company managers will be delighted to answer your questions, provide
                             cost estimates for services, and prepare individual commercial proposals for you.
                         </p>
+
+                        <h6 className='fw-bolder'>Office Department</h6>
+                        <p><MDBIcon fas icon="phone-alt" /> +971 50 8520 524</p>
+                        <p><MDBIcon fas icon="envelope" /> info@ivmmedical.com</p>
+                        <hr className='text-black' />
+
+                        <h6 className='fw-bolder'>India Sales Department</h6>
+                        <p><MDBIcon fas icon="phone-alt" /> +919 81 8287 871</p>
+                        <p> <MDBIcon fas icon="envelope" /> india.sales@ivmmedical.com</p>
+
+                        <hr className='text-black' />
+                        <h6 className='fw-bolder'>CIS Sales Department</h6>
+                        <p><MDBIcon fas icon="phone-alt" /> +993 65 81 28 35</p>
+                        <p><MDBIcon fas icon="envelope" /> cis.sales@ivmmedical.com</p>
                     </MDBCol>
 
-                    <MDBCol lg={6}>
-                        <form ref={form} onSubmit={sendEmail}>
+                    <MDBCol lg={6} className='mt-5 mt-sm-4 md-lg-unset'>
+                        <form className='' ref={form} onSubmit={sendEmail}>
                             <MDBRow className='mb-4'>
                                 <MDBCol>
                                     <Select className='text-black  ' placeholder={'Inquiry type'} name={'inquiry_type'} options={options} />

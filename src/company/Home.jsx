@@ -39,19 +39,21 @@ function Home() {
             <MDBContainer className='mt-5'>
 
                 <h2 className='text-center'>
-                    <span className='brandName'> "IVM" </span>  offers comprehensive healthcare solutions medical equipment and consumables.
+                    "IVM" offers comprehensive medical solutions with Artificial Intelligence (AI)
                 </h2>
 
 
                 <MDBRow className='justify-content-center align-items-center'>
-                    <MDBCol md='6' lg='5'>
+                    <MDBCol md='6' lg='6'>
                         <img src={equipment} className='w-100 img-fluided rounded-6 mb-5 animate__animated animate__fadeInLeft ' alt="" />
                     </MDBCol>
-                    <MDBCol md='12' lg='7' >
-                        <p className="animate__animated animate__fadeInDown animate__delay-1s animate__fast"> <MDBIcon fas icon="check-circle" />   We specialize in providing professional audit and consulting services in healthcare organization</p>
-                        <p className="animate__animated animate__fadeInDown animate__delay-1s animate__fast"> <MDBIcon fas icon="check-circle" />Equipping hospitals with necessary medical equipment and consumables.</p>
-                        <p className="animate__animated animate__fadeInDown animate__delay-3s animate__fast"> <MDBIcon fas icon="check-circle" />  Comprehensive medical equipment servicing throughout its life cycle.</p>
-                        <Modal modalName={'Start Cooperation'} />
+                    <MDBCol md='12' lg='5' >
+                        <p className="animate__animated animate__fadeInDown   animate__faster"> <MDBIcon fas icon="check-circle" />  Cervical cancer screening with AI</p>
+                        <p className="animate__animated animate__fadeInDown animate__delay-1s animate__faster"> <MDBIcon fas icon="check-circle" />  Cytology & Histopathology with AI</p>
+                        <p className="animate__animated animate__fadeInDown animate__delay-2s animate__faster"> <MDBIcon fas icon="check-circle" />  Microbiology </p>
+                        <p className="animate__animated animate__fadeInDown animate__delay-3s animate__faster"> <MDBIcon fas icon="check-circle" />  Molecular diagnostics</p>
+                        <p className="animate__animated animate__fadeInDown animate__delay-4s animate__faster"> <MDBIcon fas icon="check-circle" />  Lab automation  </p>
+                        <p className="animate__animated animate__fadeInDown animate__delay-5s animate__faster"> <MDBIcon fas icon="check-circle" />  Equipping hospitals with necessary medical equipment </p>
                     </MDBCol>
                 </MDBRow>
             </MDBContainer>
@@ -75,10 +77,9 @@ function Home() {
                             <p className="mt-sm-2">
                                 <b>
                                     IVM Medical Equipment Trading Ltd
-                                </b> -   operates in the CIS countries
-                                and Indian markets. We specialize in supplying modern medical equipment and
-                                also provide first-class service support. Since 2015, we have earned a reputation
-                                as a reliable partner, supplier and innovator in the healthcare sector.
+                                </b> - operates in the CIS countries and India. We specialize in providing modern
+                                comprehensive medical solutions for medical centers with first-class service support.
+                                Since 2015, we have earned a reputation as a reliable partner, supplier and innovator in the healthcare sector.
                             </p>
                         </MDBCol>
                     </MDBRow>
@@ -97,7 +98,7 @@ function Home() {
                                 <span className="count percent" data-count="2015">
                                     <h1>0</h1>
                                 </span>
-                                <h6>since our establishment</h6>
+                                <h6>year founded</h6>
                             </li>
                         </MDBCol>
 
@@ -151,7 +152,7 @@ function Home() {
         </>
 
 
-       
+
     );
 
 
