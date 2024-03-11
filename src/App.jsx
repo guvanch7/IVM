@@ -147,7 +147,7 @@ function App() {
             <MDBContainer fluid>
               <MDBNavbarBrand href='#'>
                 <Link to={'/'}>
-                <img src={Logo} height={50} />
+                  <img src={Logo} height={50} />
                 </Link>
               </MDBNavbarBrand>
 
@@ -225,7 +225,7 @@ function App() {
                   <MDBNavbarItem className="me-3">
                     <MDBNavbarLink className='active' >
                       <Link to={'/contact'}>
-                        Contacts
+                        Contact us
                       </Link>
                     </MDBNavbarLink>
                   </MDBNavbarItem>
@@ -402,7 +402,7 @@ function App() {
                     </p>
                     <p>
                       <Link to={'/contact'} className='text-reset'>
-                        Contacts
+                        Contact us
                       </Link>
                     </p>
                     <p>
@@ -413,7 +413,8 @@ function App() {
                   </MDBCol>
 
                   <MDBCol md='4' lg='3' xl='3' className='mx-auto mb-md-0 mb-4'>
-                    <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
+                    <h6 className='text-uppercase fw-bold mb-4'>Contact us</h6>
+                    <p><MDBIcon color='secondary' fas icon="phone-alt" /> +971 50 8520 524</p>
                     <p>
                       <MDBIcon color='secondary' icon='home' className='me-2' />
                       P.O. Box 390789, Ras Al Khaimah, Dubai, UAE
@@ -422,6 +423,7 @@ function App() {
                       <MDBIcon color='secondary' icon='envelope' className='me-3' />
                       info@ivmmedical.com
                     </p>
+
                   </MDBCol>
 
                 </MDBRow>
