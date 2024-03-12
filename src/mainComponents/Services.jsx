@@ -17,7 +17,7 @@ function Services() {
         <MDBContainer className="mt-5">
             <h1 className="text-center">Services and Solutions for Hospitals and Clinics</h1>
             <p className="text-muted fw-500">
-                IVM has a wide range of competencies, qualified specialists and partners. Our success is based on an individual approach to serving each client.
+            IVM has a wide range of competencies, qualified specialists and partners. Our success is based on an  individually tailored approach to serving each client.
             </p>
 
             <MDBRow>
@@ -26,7 +26,7 @@ function Services() {
                         <MDBIcon icon="user-tie" size="3x" className="me-3 addEff" />
                         <div>
                             <h3 className="mb-3">Audit</h3>
-                            <p>IVM offers comprehensive solutions to Audit Processes, Audit Equipment, and Audit Manpower.</p>
+                            <p>To optimize costs and reduce time required, IVM offers comprehensive solutions by auditing Processes, Equipment, and Manpower requirement.</p>
                         </div>
                     </div>
                 </MDBCol>
@@ -46,7 +46,7 @@ function Services() {
                         <MDBIcon icon="laptop-medical" size="3x" className="me-3 addEff" />
                         <div>
                             <h3 className="mb-3">Healthcare consulting</h3>
-                            <p>We comprehensively solve problems based on our vast experience: we may have encountered a similar problem somewhere and are ready to advise our clients on how to solve it.</p>
+                            <p>Our vast experience in successfully solving specific problems encountered by a wide spectrum of clientele, we are fully trained and equipped to . Comprehensively  resolve    challenges which are specific to a particular work environment.</p>
                         </div>
                     </div>
                 </MDBCol>
@@ -56,7 +56,7 @@ function Services() {
                         <MDBIcon icon="headset" size="3x" className="me-3 addEff" />
                         <div>
                             <h3 className="mb-3">Technical Maintenance</h3>
-                            <p>Our service engineers support the operation of complex equipment in hospitals, laboratories, and private clinics, ensuring that medical devices remain reliable tools for saving lives in the hands of doctors</p>
+                            <p>Our service engineers support the maintenance & operation of complex equipment in hospitals, laboratories, and private clinics, ensuring that medical devices remain reliable tools for saving valuable lives in the hands of doctors.</p>
                         </div>
                     </div>
                 </MDBCol>
@@ -66,7 +66,7 @@ function Services() {
                         <MDBIcon icon="calendar-check" size="3x" className="me-3 addEff" />
                         <div>
                             <h3 className="mb-3">Expert design</h3>
-                            <p>We don't just sell equipment; we offer comprehensive solutions. We design healthcare facilities, equipping them with the most modern equipment. We guarantee quality and compliance with established standards</p>
+                            <p>We don't just sell equipment; we offer comprehensive solutions. We design healthcare facilities, equipping them with the most modern equipment. We guarantee quality and compliance with established standards.</p>
                         </div>
                     </div>
                 </MDBCol>
