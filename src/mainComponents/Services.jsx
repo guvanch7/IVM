@@ -36,7 +36,7 @@ function Services() {
                         <MDBIcon icon="hospital-alt" size="3x" className="me-3 addEff" />
                         <div>
                             <h3 className="mb-3">Comprehensive Medical Department Equipment</h3>
-                            <p>At IVM we offer equipment and materials to almost all client groups in the healthcare system. With a portfolio of wide range of products, IVM can fully equip healthcare facilities of almost any profile.</p>
+                            <p>At, IVM we offer equipment and materials to almost all client groups in the healthcare system. With a portfolio of wide range of products, IVM can fully equip healthcare facilities of almost any profile.</p>
                         </div>
                     </div>
                 </MDBCol>
