@@ -69,7 +69,7 @@ function Home() {
                             </div>
 
                             <div className="d-lg-none">
-                                <h1 >About Company</h1>
+                                <h1 >About Us</h1>
                                 <hr className="linee" />
                             </div>
                         </MDBCol>
