@@ -17,7 +17,7 @@ function Services() {
         <MDBContainer className="mt-5">
             <h1 className="text-center">Services and Solutions for Hospitals and Clinics</h1>
             <p className="text-muted fw-500">
-            IVM has a wide range of competencies, qualified specialists and partners. Our success is based on an  individually tailored approach to serving each client.
+                IVM has a wide range of competencies, qualified specialists and partners. Our success is based on an  individually tailored approach to serving each client.
             </p>
 
             <MDBRow>
@@ -36,7 +36,7 @@ function Services() {
                         <MDBIcon icon="hospital-alt" size="3x" className="me-3 addEff" />
                         <div>
                             <h3 className="mb-3">Comprehensive Medical Department Equipment</h3>
-                            <p>IVM we offer equipment and materials to almost all client groups in the healthcare system. With a wide range of products, IVM can fully equip healthcare facilities of almost any profile.</p>
+                            <p>At IVM we offer equipment and materials to almost all client groups in the healthcare system. With a portfolio of wide range of products, IVM can fully equip healthcare facilities of almost any profile.</p>
                         </div>
                     </div>
                 </MDBCol>
