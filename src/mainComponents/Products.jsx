@@ -34,7 +34,7 @@ function Products() {
                 Offering medical equipment and supplies.
             </h1>
             <p>
-                Representing 29 global manufacturers of medical equipment and consumables, IVM is entrusted with promoting and selling their products in CIS countries and India.
+                Representing 29 global manufacturers of medical equipment and consumables, IVM is entrusted with promoting and selling their Branded products in CIS countries and India and other SAARC countries.
             </p>
 
 
