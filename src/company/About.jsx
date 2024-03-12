@@ -28,16 +28,16 @@ function About() {
             <MDBContainer className="background-logo mt-5" style={{ backgroundImage: `url(${background})` }}>
                 <h1 className="text-center mb-4">IVM - Empowering Health through Technology</h1>
                 <p>
-                    <b>IVM Medical Equipment Trading Ltd</b> (IVM)  was founded in 2015 in the UAE.
+                    <b>IVM Medical Equipment Trading Ltd</b> (IVM) was founded in 2015 in the  United Arab Emirates.
                     Our business involves a wide range of medical equipment.
                 </p>
 
                 <p>
-                    Global manufacturers of medical equipment and consumables trust IVM for promotion and sales their products in CIS countries and India.
+                Global manufacturers of medical equipment and consumables trust IVM for promotion and sales their products in CIS countries and India and SAARC countries.
                 </p>
 
                 <p>
-                    The range of medical products helps fully equip healthcare facilities of any profile in tight timeframes. That's why IVM is one of the few operators in the market of comprehensive projects.
+                The range of medical products helps fully equip healthcare facilities of any profile in tight timeframes. That's why IVM is one of the few operators in the market of comprehensive projects.
                 </p>
 
                 <p>
@@ -45,7 +45,7 @@ function About() {
                 </p>
 
                 <p>
-                    IVM offers medical audit medical consulting and a comprehensive range of medical device services throughout their entire lifecycle. We provide warranty and post-warranty repairs, pre-sales preparation, and equipment installation.
+                IVM offers medical audit medical consulting and a comprehensive range of medical device services throughout their entire lifecycle. We provide warranty and post-warranty repairs, pre-sales preparation, and equipment installation.
                 </p>
 
 

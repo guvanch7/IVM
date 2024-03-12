@@ -64,7 +64,7 @@ function Home() {
                     <MDBRow className='align-items-center'>
                         <MDBCol className='text-left' lg={4}>
                             <div className='mark-header d-none d-lg-block text-left'>
-                                <h1 >About Company</h1>
+                                <h1 >About Us</h1>
                                 <hr className="linee" />
                             </div>
 
@@ -77,9 +77,11 @@ function Home() {
                             <p className="mt-sm-2">
                                 <b>
                                     IVM Medical Equipment Trading Ltd
-                                </b> - operates in the CIS countries and India. We specialize in providing modern
-                                comprehensive medical solutions for medical centers with first-class service support.
-                                Since 2015, we have earned a reputation as a reliable partner, supplier and innovator in the healthcare sector.
+                                </b> – Since 2015, based out of the United Arab Emirates, we operate in the CIS
+                                countries and expanding in India and SAARC countries. We specialize in providing
+                                modern comprehensive medical solutions for medical centers, Clinical laboratories
+                                & Research Centers with first-class service support. We have earned a reputation
+                                as a reliable partner, supplier and innovator in the healthcare sector.
                             </p>
                         </MDBCol>
                     </MDBRow>
